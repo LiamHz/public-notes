@@ -1,9 +1,6 @@
 Financial Analysis Swat Team Overview
 =====================================
 
-## Overview
-FOLLOW THE MONEY! We'll look at the top 5 industries in the world by market cap, and will be looking into the top 2 companies in those industries (so a total of 10 companies). These businesses are going to make cuts and are likely loosing revenue. So when they do, whatever costs they cut is either revenue for other companies (products or services they're using that they won't pay for anymore), or employees salaries. We'll also be analyzing growth rations, how cash position will affect companies abilities to survive, and what are some things that will stay the same and other that will inevitably change. We'll be adapting along the way based on what we find.
-
 ## The Plan
 1. Identify the top 5 industries by market cap
 2. Find the top 2 companies in those industries (so a total of 10 companies)
