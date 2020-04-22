@@ -37,6 +37,7 @@ Note: I listed 4 companies, as I'm not sure if Apple and Amazon should be catego
 
 #### $2.45T - Pharmaceuticals
 - $395B - Johnson & Johnson
+- $291B - Roche Holding AG
 
 #### $2.25T - Banks
 - $271B - JP Morgan Chase
@@ -45,9 +46,9 @@ Note: From what I could tell, Visa (Mkt. cap $345B) is classified as "Financial 
 
 #### $2.15T - Internet & Direct Marketing Retail
 - $366B - Walmart
+- $215B - Home Depot
 
 #### $1.75T - IT Services
-- 
 Note: Not sure how to easily identify / find large companies here, will loop back soon.
 
 #### $1.74T - Oil, Gas & Consumable Fuels
