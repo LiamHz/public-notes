@@ -2,6 +2,7 @@
 ## Books
 
 ## Papers
+
 | **Title**                                                 | TL;DR                                                   |
 | **-----**                                                 | -----                                                   |
 | [Anthropic Shadow](1)                                     | People underestimate the likelihood of extinction risks |
