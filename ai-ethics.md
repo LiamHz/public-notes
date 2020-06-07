@@ -10,6 +10,7 @@ AI Ethics
 [1]: https://youtu.be/Z3Tme0WU5D8?t=80
 [2]: https://montrealethics.ai/research-summary-beyond-near-and-long-term-towards-a-clearer-account-of-research-priorities-in-ai-ethics-and-society/
 [3]: https://montrealethics.ai/the-toxic-potential-of-youtubes-feedback-loop/
+[4]: https://montrealethics.ai/a-16-year-old-ai-developers-critical-take-on-ai-ethics/
 
 
 ## Areas of AI Ethics
