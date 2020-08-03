@@ -1,8 +1,11 @@
 # Debugging a Segfault
 
 1. I'm getting a segfault sometimes, but now always, when I run my program.
+
 2. I set the build type in CMake to `Debug` --> This compiles an unoptimized version of my program, but with readable symbol tables (e.g. I see `error in createBuffer` instead of `error in #7876`)
+
 3. I enable the address sanitizer with the `-fsanitize=address` flag in CMake --> This makes the program run ~50% slower, but will catch segfaults and other memory errors
+
 4. I compile and run the program, get a segfault, and see `AddressSanitizer: heap-buffer-overflow on address 0x60...` and below:
 ```
 #0 0x107611149 in vk::Fence::operator bool() const vulkan.hpp:14978
@@ -23,6 +26,10 @@ if (imagesInFlight[imageIndex]) {
 
 This shows that `imageInFlight[imageIndex]` is what's producing the `heap-buffer-overflow`
 
-6. I check `main.cpp` to check how `imagesInFlight` was initialized, and to see if its value was re-assigned at any point (I see that it's not)
+6. Image index can go up to a value of 2 (accessing the third element).
 
-7. `imagesInFlight` was initialized with `std::vector<vk::Fence> imagesInFlight(maxFramesInFlight);` (maxFramesInFlight is a constant that's set to 1 currently). I realize that this is creating a vector (equivalent to list in Python) with a size of 1, but not initalizing the values of that list to anything, therefore: when I run `imageInFlight[imageIndex]` I try to access an uninitialized value. I can fix this by changing the initialization to `std::vector<vk::Fence> imagesInFlight(maxFramesInFlight, VK_NULL_HANDLE);`
+`imagesInFlight` was initialized with `std::vector<vk::Fence> imagesInFlight(maxFramesInFlight);` (maxFramesInFlight is a constant that's set to 2 currently)
+
+**To fix the segfault, I need to change maxFramesInFlight to 3, instead of 2**
+
+**Note:** Image index will go up to 2 if triple buffering is supported by the swapchain, and up to 1 if only double buffering is supported. This is why the error only occasionally happened.
