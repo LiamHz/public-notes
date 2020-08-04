@@ -8,11 +8,11 @@ If you haven't read [The Basics of Fusion](https://www.briannagopaul.com/fusion-
 **RECAP**
 
 - Fusion is the combining of two hydrogen isotopes, often Deuterium and Tritium, to release an immense amount of energy
-- Binding energy is the amount of energy released when a nuclei is separated into its constituents
+- Binding energy is the amount of energy released when a nuclei is separated into its component parts
 - The binding energy curve and $E=mc^2$ shows that combining two light nuclei into a nuclei with a higher binding energy releases LOTS of energy
-- The Coulomb Force, a repulsive force between two like charged particles, prevents nuclei from fusing and increases the closer and closer the two nuclei get together
-- At a certain distance called the Coulomb Barrier, the nuclear strong force overtakes the Coulomb Force and allows fusion to occur. It's an attractive short range forces that binds the nucleons (protons and neutrons in a nucleus together)
-- For a particle to overcome the Coulomb Barrier, an immense amount of energy measured by the coulomb barrier's height is needed. Sometimes, particles can tunnel through the barrier without enough to energy. Even so, this is what makes fusion difficult.
+- The Coulomb Force, a repulsive force between two like charged particles, prevents nuclei from fusing and increases the closer the two nuclei are to each other
+- At a certain distance called the Coulomb Barrier, the nuclear strong force overtakes the Coulomb Force and allows fusion to occur. It's an attractive short range forces that binds the nucleons (protons and neutrons in a nucleus) together
+- For a particle to overcome the Coulomb Barrier, an immense amount of energy measured by the Coulomb Barrier's height is needed. Sometimes, particles can tunnel through the barrier without enough to energy. Even so, this is what makes fusion difficult
 
 Now that we've gone through some of the basics of what fusion is, we're going to calculate how often fusion occurs.
 
@@ -27,7 +27,7 @@ Imagine this: Deuterium nuclei are moving at a velocity $v$ towards a stationary
 
 </div> 
 
-Each target particle takes up a circular cross sectional area $\sigma$. 
+Each target particle takes up a circular cross sectional area (what does this mean in English?) $\sigma$. 
 
 If the incident particle passes through the cross sectional area $\sigma$, then fusion occurs and this reaction is called a collision. If the incident particle does not, fusion will not occur. 
 
@@ -56,9 +56,9 @@ We can use $dF$ to calculate the probability of an incident particle fusing when
 - If the target particles have a larger cross sectional area $\sigma$, then the probability of fusion occurring increases. Likewise, if the target particle has a smaller cross sectional area $\sigma$, then the probability of fusion decreases
 - If the density of the target particles in the cylinder $n_1$ increases, the probability of fusion also increases. Likewise, if the density is smaller, the probability of fusion will also decrease.
 
-This makes sense, imagine throwing a golf ball into a bucket. First, you were given 1 bucket that had an opening with an area of 1cm. Then, you were given 1000 buckets that had openings with area of 5m. In which case, do you think you would have a higher probability of throwing the golf ball in the bucket. Definitely the second case, where the cross sectional area of the opening of each bucket is greater and there is a higher density of buckets.
+This makes sense, imagine throwing a golf ball into a bucket. First, you were given 1 bucket that had an opening with an area of 1cm. Then, you were given 1000 buckets that had openings with area of 5m. In which case, do you think you would have a higher probability of throwing the golf ball in the bucket. The second case would definitely have a higher probability of throwing the golf ball in the bucket, since the cross sectional area of the opening of each bucket is greater and there is a higher density of buckets.
 
-Finally, we can go on to calculate the Mean Free Path which will. 
+Finally, we can go on to calculate the Mean Free Path which will (missing words?) 
 
 Let's say that there are several *incident particles* with density $n_2$. Don't confuse this with $n_1$ which we used to represent the density of the *target particles*. 
 
