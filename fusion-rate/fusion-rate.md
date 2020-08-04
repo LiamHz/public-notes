@@ -95,7 +95,9 @@ First, the Mean Free Path describes the average distance a particle must travel 
 
 ### How Often Does Fusion Occur?
 
-Let's look at how often collisions occur and the average amount of time it takes for a collision to occur. 
+(This section just states the connection between collision frequency and mean time between between collisions, but not how to calculate one if you do not have the other. I don't really understand the importance of this)
+
+To answer this question, let's first look at the average amount of time it takes for a collision to occur.
 
 $v_m$ represents the Collision frequency 
 
@@ -130,6 +132,8 @@ The reaction rate $R_{12}$ tells us how many times fusion occurs per unit time p
 We'll start with the basics: 
 
 In time $dt=\frac{dx}{v}$ (this is time = distance particles travel / velocity) $n_2Adx$ particles will pass through the target volume. Just to refresh your memory, the total number of particles passing through the target volume is the density of those particles $n_2$ multiplied by the cross sectional area of the cylinder $A$ multiplied by the width of the cylinder $dx$. All we did here is take the volume of the space the particles are in multiplied by the density of those particles in that space to find the total number of particles. If this isn't clicking, check [here](https://www.notion.so/briannago/1-The-Basics-of-Fusion-Energy-f6c070a161cf4401bb2f322da1e4658f#76e9e719bb464e7ca6fa79ae4aa64d9e) to refresh your memory. 
+
+ADD image here so people who don't understand can understand without reading your other article
 
 The number of particles that will actually have a collision is the probability of having a collision $dF$ multiplied by the total number of particles $n_2Adx$. → $dF(n_2Adx)$ So if there's a higher probability of having a collision or a greater number of total particles, the number of particles having a collision will increase. 
 
