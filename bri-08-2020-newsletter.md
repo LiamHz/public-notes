@@ -10,9 +10,9 @@ August 2020 Newsletter
 
 ## Personal
 
-[Wrote](https://briannagopaul.com/blog/fusion-basics.html) about the basics of what fusion is. 
+[Wrote](https://briannagopaul.com/blog/fusion-basics.html) about the basics of what fusion energy.
 
-[Published](https://briannagopaul.com/blog/fusion-rate.html) an article using notes from Plasma Physics and Fusion Energy by Freidberg. 
+[Wrote](https://briannagopaul.com/blog/fusion-rate.html) an article on the rate of fusion reactions using notes from Plasma Physics and Fusion Energy by Freidberg. 
 
 ## Links
 
@@ -24,7 +24,7 @@ _Talks about the need for fusion energy and dives into  magnetic confinement, st
 _Really good resource if you want to learn physics in the context of energy._ 
 
 [Plasma Physics and Fusion Energy by Freidberg](https://www.cambridge.org/core/books/plasma-physics-and-fusion-energy/CD7B530D2889F70446F34E14EE0EF703)\
-_Difficult read but provides an in-depth explanation of Fusion Power Energy Density,Mean Free Path, and other plasma physics concepts._ 
+_Difficult read but provides an in-depth explanation of Fusion Power Energy Density, Mean Free Path, and other plasma physics concepts._ 
 
 [Dennis Whyte - Titans of Nuclear](https://www.youtube.com/watch?v=m4JTpiqABp8)\
 _Head of Nuclear Science and Engineering at MIT talks about his journey and various projects he has worked on at MIT_
